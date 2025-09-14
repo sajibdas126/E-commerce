@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 90%;
+    margin: auto;
+
+}
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+     margin: 40PX;
+   
+}
+.header-section ul a{
+   margin-right: 60px;
+   text-decoration: none;
+   color:gray;
+   font-size: 20px;
+}
+.header-section ul a:hover{
+text-decoration: underline;
+}
+.header-btn p{
+    font-size: 25px;
+    color: black;
+}
+.bannerImg {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section-2{
+    margin-top: 40px;
+}
+.section-2 h1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 60PX;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1 {
+   border: 1px solid white;
+   border-radius: 5px;
+  
+   box-shadow: 200px;
+   box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+    border: none;
+    
+
+}
+.card-1 p{
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.card-1 button{
+    margin-top: 40px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.card-2{
+    display: flex;
+    justify-content: center;
+    margin: 20PX;
+}
